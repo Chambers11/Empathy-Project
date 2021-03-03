@@ -29,7 +29,7 @@ This is a supplementary document outlining some of the theory around the applica
 [Demo Video](https://www.youtube.com/watch?v=mXwvchrvftc&feature=youtu.be) 
 
 ## Release Information
-Latest Version: 1.0- [Build Download](https://github.com/Chambers11/Empathy-Project-Loss-of-a-Limb/releases/download/v1.0/LossOfA.Limb.zip)
+Latest Version: 1.0- [Build Download](https://github.com/Chambers11/Empathy-Project-Loss-of-a-Limb/releases/download/v1.0/Loss.of.a.Limb.Updated.zip)
 
 ## Developed & Tested Using:
 
