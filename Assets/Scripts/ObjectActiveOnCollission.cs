@@ -9,8 +9,14 @@ public class ObjectActiveOnCollission : MonoBehaviour
     public GameObject Turn;
     public GameObject TurnNested;
     public InputActionReference XRIntMangr;
-    
-    
+    public int UseCountEnter = 0;
+    public int UseCountPress = 0;
+    public GameObject ToolTipOne;
+    public GameObject ToolTipTwo;
+    public GameObject ToolTipThree;
+    public int EnterCountVal = 5;
+    public int PressCountVal = 3;
+
 
 
     private void OnEnable()
@@ -37,6 +43,7 @@ public class ObjectActiveOnCollission : MonoBehaviour
         {
             //TurnNested.SetActive(false);
             Turn.SetActive(true);
+            UseCountEnter = UseCountEnter + 1;
 
            
         }
@@ -62,6 +69,13 @@ public class ObjectActiveOnCollission : MonoBehaviour
         {
             Debug.Log("Triggered");
             TurnNested.SetActive(true);
+            UseCountPress = UseCountPress + 1;
+        }
+        if (UseCountEnter > EnterCountVal && UseCountPress >PressCountVal)
+        {
+            ToolTipOne.gameObject.SetActive(false);
+            ToolTipTwo.gameObject.SetActive(false);
+            ToolTipThree.gameObject.SetActive(false);
         }
     }
 }

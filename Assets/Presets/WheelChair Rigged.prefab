@@ -1162,6 +1162,13 @@ MonoBehaviour:
   TurnNested: {fileID: 151081519982130498}
   XRIntMangr: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+  UseCountEnter: 0
+  UseCountPress: 0
+  ToolTipOne: {fileID: 0}
+  ToolTipTwo: {fileID: 0}
+  ToolTipThree: {fileID: 0}
+  EnterCountVal: 5
+  PressCountVal: 3
 --- !u!1 &151081520159904079
 GameObject:
   m_ObjectHideFlags: 0
@@ -2486,6 +2493,13 @@ MonoBehaviour:
   TurnNested: {fileID: 151081521143508539}
   XRIntMangr: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+  UseCountEnter: 0
+  UseCountPress: 0
+  ToolTipOne: {fileID: 0}
+  ToolTipTwo: {fileID: 0}
+  ToolTipThree: {fileID: 0}
+  EnterCountVal: 5
+  PressCountVal: 3
 --- !u!23 &151081520477206276
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3772,6 +3786,13 @@ MonoBehaviour:
   TurnNested: {fileID: 151081520128588055}
   XRIntMangr: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+  UseCountEnter: 0
+  UseCountPress: 0
+  ToolTipOne: {fileID: 0}
+  ToolTipTwo: {fileID: 0}
+  ToolTipThree: {fileID: 0}
+  EnterCountVal: 5
+  PressCountVal: 3
 --- !u!1 &151081521077791096
 GameObject:
   m_ObjectHideFlags: 0
@@ -4675,6 +4696,13 @@ MonoBehaviour:
   TurnNested: {fileID: 151081520768301515}
   XRIntMangr: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
+  UseCountEnter: 0
+  UseCountPress: 0
+  ToolTipOne: {fileID: 0}
+  ToolTipTwo: {fileID: 0}
+  ToolTipThree: {fileID: 0}
+  EnterCountVal: 5
+  PressCountVal: 3
 --- !u!23 &151081521375607307
 MeshRenderer:
   m_ObjectHideFlags: 0
